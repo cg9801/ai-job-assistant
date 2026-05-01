@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Java 后端开发工程师",
+    "company": "字节跳动",
+    "location": "北京",
+    "salaryRange": "20K-40K",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "techStack": "Java, Spring Boot, MySQL, Redis, 微服务, Docker",
+    "description": "负责核心业务系统的设计与开发，参与系统架构优化，保障系统高可用。要求熟悉 Java 基础，了解 Spring 生态，有分布式系统开发经验优先。"
+  },
+  {
+    "title": "Spring Boot 开发工程师",
+    "company": "阿里巴巴",
+    "location": "杭州",
+    "salaryRange": "25K-50K",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "techStack": "Java, Spring Boot, Spring Cloud, MyBatis, MySQL, Redis, Kafka",
+    "description": "参与电商平台后端服务开发，负责高并发场景下的系统设计与实现。要求扎实的 Java 基础，熟悉 Spring 全家桶。"
+  },
+  {
+    "title": "初级 Java 开发",
+    "company": "腾讯",
+    "location": "深圳",
+    "salaryRange": "18K-35K",
+    "education": "本科及以上",
+    "experience": "应届/1年以下",
+    "techStack": "Java, Spring, MySQL, Git, Linux",
+    "description": "参与社交产品后端开发，有良好的代码规范和学习能力。应届生友好，有实习经验优先。"
+  }
+]
