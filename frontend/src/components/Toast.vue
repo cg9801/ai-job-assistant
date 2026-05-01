@@ -1,5 +1,5 @@
-<script setup>
-import { ref, onMounted } from 'vue'
+<script>
+import { ref } from 'vue'
 
 const toasts = ref([])
 let id = 0
@@ -12,9 +12,17 @@ function add(msg, type = 'info') {
   }, 3000)
 }
 
-onMounted(() => {
+// Expose globally
+if (typeof window !== 'undefined') {
   window.__toast = add
-})
+}
+
+export default {
+  name: 'Toast',
+  setup() {
+    return { toasts }
+  }
+}
 </script>
 
 <template>
